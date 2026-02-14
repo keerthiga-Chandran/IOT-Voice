@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/primary_blue"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/header" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/row_color"
+            android:background="@drawable/rectangle_shape"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+         <!-- Connected SSID -->
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/ssidText"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Default Drive Mode"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="5dp" />
+            <View
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/blue"
+                android:layout_width="match_parent"
+                android:layout_height="1.2dp"/>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/mode_one"
+                    android:text="   Mode 1"
+                     android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:layout_height="wrap_content"/>
+                <RadioButton
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/mode_two"
+                     android:text="   Mode 2"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/make_default"
+            android:orientation="horizontal"
+             android:background="@drawable/button_shape"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+             android:layout_marginBottom="20dp"
+            android:layout_marginRight="40dp"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Make as Default"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

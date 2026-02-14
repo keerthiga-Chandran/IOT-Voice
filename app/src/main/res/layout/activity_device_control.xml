@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F9FAFB"
+    android:padding="20dp"
+    tools:context=".Devices.DeviceControlActivity">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/deviceTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Device Control"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#333"
+        android:gravity="center"
+        android:layout_marginBottom="15dp" />
+
+    <!-- Device Info Card -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_vertical"
+        android:clipToOutline="true">
+
+        <TextView
+            android:id="@+id/deviceInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Device: Rover-01\nIP: 192.168.4.1"
+            android:textSize="16sp"
+            android:textColor="#444" />
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: Connected"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <!-- Controls Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/btnTurnOn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Turn ON"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="10dp" />
+
+        <Button
+            android:id="@+id/btnTurnOff"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Turn OFF"
+            android:backgroundTint="#E53935"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Refresh & Disconnect -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnRefresh"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Refresh"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="10dp" />
+
+        <Button
+            android:id="@+id/btnDisconnect"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Disconnect"
+            android:backgroundTint="#9E9E9E"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>

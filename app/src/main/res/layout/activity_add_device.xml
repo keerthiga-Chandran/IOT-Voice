@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/primary_blue"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/header" />
+    </LinearLayout>
+
+ <ScrollView
+     android:layout_below="@id/header_layout"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+     <LinearLayout
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+        <TextView
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginTop="100dp"
+            android:text="Scan for Devices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+         <TextView
+             android:textColor="@color/txt_gray"
+             android:layout_gravity="center"
+             android:layout_marginTop="5dp"
+             android:gravity="center"
+             android:textSize="13dp"
+             android:textStyle="bold"
+              android:text="Find compatible devices on your Wi-Fi\n network automatically"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"/>
+         <ImageView
+             android:id="@+id/scan_img"
+             android:src="@drawable/info"
+             android:layout_marginTop="20dp"
+             android:layout_gravity="center"
+             android:layout_width="100dp"
+             android:layout_height="100dp"/>
+         <LinearLayout
+             android:id="@+id/start_scan"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:padding="15dp"
+             android:background="@drawable/rectangle_shape"
+             android:backgroundTint="@color/blue"
+             android:layout_marginRight="20dp"
+             android:layout_marginLeft="20dp"
+             android:layout_marginTop="10dp"
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             <ImageView
+                 android:src="@drawable/play"
+                 android:layout_width="25dp"
+                 app:tint="@color/white"
+                 android:layout_height="25dp"/>
+             <TextView
+                 android:text="Start Scanning"
+                 android:textStyle="bold"
+                 android:textSize="15dp"
+                 android:layout_marginLeft="5dp"
+                 android:textColor="@color/white"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"/>
+         </LinearLayout>
+         <LinearLayout
+             android:layout_marginTop="50dp"
+             android:layout_marginLeft="20dp"
+             android:layout_marginRight="20dp"
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             <View
+                 android:layout_gravity="center"
+                 android:background="@color/txt_gray"
+                 android:layout_weight="1"
+                 android:layout_width="0dp"
+                 android:layout_height="1dp"/>
+             <TextView
+                 android:text="Or Add Manually"
+                 android:textColor="@color/txt_gray"
+                 android:layout_gravity="center"
+                 android:gravity="center"
+                 android:layout_weight="1"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginRight="10dp"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"/>
+             <View
+                 android:layout_weight="1"
+                 android:layout_gravity="center"
+                 android:background="@color/txt_gray"
+                 android:layout_width="0dp"
+                 android:layout_height="1dp"/>
+         </LinearLayout>
+         <LinearLayout
+             android:background="@drawable/input_box"
+             android:layout_marginTop="40dp"
+             android:layout_marginRight="20dp"
+             android:padding="12dp"
+             android:layout_marginLeft="20dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             <ImageView
+                 android:layout_gravity="center"
+                 android:tint="@color/txt_gray"
+                  android:src="@drawable/wifi"
+                 android:layout_width="25dp"
+                 android:layout_height="25dp"/>
+             <EditText
+                 android:id="@+id/ip_address"
+                 android:textSize="14dp"
+                 android:layout_gravity="center"
+                 android:hint="Enter device IP(e.g,192.168.1.100)"
+                 android:textColorHint="@color/txt_gray"
+                 android:textColor="@color/white"
+                 android:layout_marginLeft="5dp"
+                 android:background="@null"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+         </LinearLayout>
+         <LinearLayout
+             android:id="@+id/connect"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:padding="15dp"
+             android:background="@drawable/rectangle_shape"
+             android:backgroundTint="@color/rec_fill"
+             android:layout_marginRight="20dp"
+             android:layout_marginLeft="20dp"
+             android:layout_marginTop="18dp"
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+             <TextView
+                 android:text="Connect"
+                 android:textStyle="bold"
+                 android:textSize="15dp"
+                 android:layout_marginLeft="5dp"
+                 android:textColor="@color/blue"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"/>
+         </LinearLayout>
+
+     </LinearLayout>
+ </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:gravity="center"
+    android:background="@color/blue">
+    <LinearLayout
+        android:background="@drawable/banner"
+        android:layout_weight="1.3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_marginTop="35dp"
+            android:text="Monitor Your Home!"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+             android:gravity="center"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginTop="10dp"
+             android:text="Get real-time status updates and peace of \n mind with our smart security sensors"
+            android:textColor="@color/white"
+             android:gravity="center"
+            android:textSize="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:id="@+id/btnGoogleLogin"
+            android:orientation="horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:padding="5dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/rectangle_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/google_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Login with Google"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="13dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

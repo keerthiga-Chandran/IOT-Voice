@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+         <item name="windowActionBar">false</item>
+    </style>
+         <style name="DialogSlideAnimation">
+            <item name="android:windowEnterAnimation">@anim/slide_in_up</item>
+            <item name="android:windowExitAnimation">@anim/slide_out_down</item>
+        </style>
+    <style name="PopupActivity" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>

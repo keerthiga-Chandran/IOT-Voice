@@ -1,0 +1,2 @@
+D:/IOT/vosk-android-demo-master/vosk-android-demo-master/app/.cxx/Debug/5291i1o4/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/IOT/vosk-android-demo-master/vosk-android-demo-master/app/.cxx/Debug/5291i1o4/arm64-v8a/CMakeFiles/rebuild_cache.dir

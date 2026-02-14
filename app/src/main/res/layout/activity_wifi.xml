@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/password"
+        android:hint="Enter Wi-Fi Password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect Wi-Fi"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnDisconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Disconnect Wi-Fi"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnSuggest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suggest Wi-Fi (System)"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

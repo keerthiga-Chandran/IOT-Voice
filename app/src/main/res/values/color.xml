@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_blue">#101922</color>
+    <color name="red">#ff0000</color>
+    <color name="tint_color">#384152</color>
+    <color name="item_bg_clr">#182130</color>
+    <color name="tilled_color">#384152</color>
+    <color name="blue">#1173d6</color>
+    <color name="green">#0bd95a</color>
+    <color name="bar_color">#19212e</color>
+    <color name="white">#fff</color>
+    <color name="row_color">#273037</color>
+    <color name="txt_gray">#868e9b</color>
+    <color name="bg_blue">#123354</color>
+    <color name="left_bg">#384152</color>
+    <color name="green_tint">#194138</color>
+    <color name="red_tint">#422833</color>
+    <color name="rec_grat">#1e293b</color>
+    <color name="rec_fill">#102b46</color>
+</resources>

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1044956637806",
+    "project_id": "iot-voice-diyiot",
+    "storage_bucket": "iot-voice-diyiot.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044956637806:android:5e64ffc18b90e1035dd47f",
+        "android_client_info": {
+          "package_name": "com.proz.projectiot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044956637806-l9ofgb74isoh8pkdq6tggv6a6vdh37iu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.proz.projectiot",
+            "certificate_hash": "5f7a0b4774eca78270beb183ba5c892d5772823f"
+          }
+        },
+        {
+          "client_id": "1044956637806-ckj9ne8fp6e2r3krd1vuqt9eusr54mt4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrv1zvf0Z11Uk24kv6T1rd_pxPDjb9P0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044956637806-1el9i4pn4o1i7cdp6f6l787jg3f2lt3t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1044956637806-bnlejjkdi8uipd4h2m3a5gdp4rcrqi09.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.proz.projectiot"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
